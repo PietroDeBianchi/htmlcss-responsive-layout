@@ -38,8 +38,17 @@ p {
     margin: 5% 0;
 }
 
+.colum-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 16px;
+}
+
 .violet-background {
     background-color: rgb(150, 146, 222);
+    margin: 3% 0;
+    padding: 6% 0;
 }
 
 /* HEADER STYLE */
@@ -67,7 +76,7 @@ nav {
 /* MAIN STYLE */
 
 main {
-    padding-top: 6rem;
+    padding-top: 5rem;
 }
 
 /* DEMO-APPLICATION MAIN STYLE */
@@ -85,13 +94,10 @@ main {
     margin: auto;
 }
 
-.card-text h5, .card-text p, .card-text div, .card-text i {
-    padding-top: 7.5%;
-}
-
 .application h5 {
     color: rgb(57, 130, 245);
     font-size: 20px;
+    padding-top: 5%;
 }
 
 .card-text a {
@@ -112,6 +118,79 @@ main {
 }
 
 .smallcard {
-    padding-bottom: 6%;
+    padding: 6% 0;
     text-align: center;
+}
+
+/* STRATEGIC-PLAN MAIN STYLE */
+#strategic-intro {
+    color: white;
+    padding: 8% 0;
+}
+
+#strategic-plan img {
+    width: 100%;
+}
+
+#strategic-plan h4 {
+    font-size: 40px;
+    padding: 7.5% 0;
+}
+
+.strategic-card {
+    background-color: white;
+    border-radius: 20px;
+}
+
+.strategic-card img {
+    width: 100%;
+}
+
+.strategic-card h5 {
+    font-size: 23px;
+}
+
+.strategic-card i {
+    font-size: 20px;
+    color: black;
+    background-color: rgb(150, 146, 222);
+    padding: 4%;
+    border-radius: 50%;
+}
+/* EXPERT-PARTNERS MAIN STYLE */
+
+.partners-text {
+    text-align: center;
+}
+
+.partners-text span {
+    font-size: 20px;
+}
+
+.partners-text h3 {
+    font-size: 40px;
+    color: rgb(150, 146, 222);
+}
+
+.partners-card {
+    margin-top: 3rem;
+    color: white;
+}
+
+.partners-card .container {
+    background-color: rgb(150, 146, 222);
+    border-radius: 20px;
+    align-items: center;
+}
+
+.partners-card img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.partners-card span {
+    font-size: 25px;
+    font-weight: 700;
 }
