@@ -9,8 +9,23 @@ body {
     font-family: 'Mukta', sans-serif;
 }
 
+/* STYLE GENERAL TAG */
 li {
     list-style: none;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+.violet-background {
+    background-color: rgb(150, 146, 222);
+}
+
+section {
+    /* debug */
+    height: 300px;
 }
 
 /* HEADER STYLE */
@@ -39,9 +54,4 @@ nav {
 
 main {
     padding-top: 5rem;
-}
-
-#main-container {
-    width: 90%;
-    margin: auto;
 }
