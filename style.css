@@ -190,6 +190,10 @@ main {
     border-radius: 50%;
 }
 
+.partners-card p {
+    font-size: 22px;
+}
+
 .partners-card span {
     font-size: 25px;
     font-weight: 700;
