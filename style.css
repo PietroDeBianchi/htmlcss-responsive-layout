@@ -14,18 +14,32 @@ li {
     list-style: none;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
+i {
+    color: rgb(57, 130, 245);
+    font-size: 80px;
+}
+
+p {
+    font-size: 20px;
+}
+
 .container {
     width: 90%;
     margin: auto;
 }
 
-.violet-background {
-    background-color: rgb(150, 146, 222);
+.card {
+    border-radius: 20px;
+    margin: 5% 0;
 }
 
-section {
-    /* debug */
-    height: 300px;
+.violet-background {
+    background-color: rgb(150, 146, 222);
 }
 
 /* HEADER STYLE */
@@ -53,5 +67,51 @@ nav {
 /* MAIN STYLE */
 
 main {
-    padding-top: 5rem;
+    padding-top: 6rem;
+}
+
+/* DEMO-APPLICATION MAIN STYLE */
+#demo-application p {
+    color: gray;
+
+}
+
+.application {
+    background-color: rgb(189, 220, 252);
+}
+
+.card > div {
+    width: 85%;
+    margin: auto;
+}
+
+.card-text h5, .card-text p, .card-text div, .card-text i {
+    padding-top: 7.5%;
+}
+
+.application h5 {
+    color: rgb(57, 130, 245);
+    font-size: 20px;
+}
+
+.card-text a {
+    display: inline-block;
+    background-color: rgb(57, 130, 245);
+    padding: 1% 10%;
+    border-radius: 10px;
+}
+
+#application-img img {
+    width: 100%;
+}
+
+#application-img {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 5%;
+}
+
+.smallcard {
+    padding-bottom: 6%;
+    text-align: center;
 }
