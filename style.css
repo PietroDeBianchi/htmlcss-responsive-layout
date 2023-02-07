@@ -43,7 +43,7 @@ h3 {
 
 .card {
     border-radius: 20px;
-    margin: 5% 0;
+    margin-top: 5%;
 }
 
 .smallcard {
@@ -179,13 +179,11 @@ main {
 }
 
 .partners-card {
-    margin-top: 3rem;
     color: white;
 }
 
 .partners-card .container {
     background-color: rgb(150, 146, 222);
-    border-radius: 20px;
     align-items: center;
 }
 
@@ -345,3 +343,6 @@ footer a {
     text-decoration: underline; 
     color: rgb(150, 146, 222);
 }
+
+
+/* RESPONSIVE PART */
