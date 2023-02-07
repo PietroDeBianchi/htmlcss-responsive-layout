@@ -386,7 +386,12 @@ footer a {
 
     #about-us .container {
         display: flex;
+        justify-items: flex-start;
         gap: 20px;
+    }
+
+    .about-linkedin {
+        padding-top: 0;
     }
 
     #about-us h3 {
@@ -409,9 +414,5 @@ footer a {
     .with-us {
         width: calc(100% / 3 - 20px)
     }
-
-}
-
-@media all and (min-width: 1140px) {
 
 }
