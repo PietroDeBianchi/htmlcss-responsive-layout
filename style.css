@@ -94,7 +94,10 @@ main {
 /* DEMO-APPLICATION MAIN STYLE */
 #demo-application p {
     color: gray;
+}
 
+.big-card {
+    background-color: rgb(189, 220, 252);
 }
 
 .application {
@@ -106,7 +109,7 @@ main {
     margin: auto;
 }
 
-.application h5 {
+#demo-application h5 {
     color: rgb(57, 130, 245);
     font-size: 20px;
     padding-top: 5%;
@@ -273,7 +276,7 @@ main {
 .linkedin-img i{
     position: absolute;
     top: 0;
-    right: 35%;
+    right: 0;
     color: rgb(150, 146, 222);
     font-size: 60px;
 }
@@ -348,13 +351,46 @@ footer a {
 /* RESPONSIVE PART */
 
 @media all and (min-width: 768px) {
+    p {
+        font-size: 18px;
+    }
+
     #demo-application .container {
         display: flex;
         flex-wrap: wrap;
+        justify-content: space-between;
     }
 
-    .container .application {
-        width: (100% / 3);
+    .big-card {
+        width: calc((100% / 3 )* 2 - 20px);
+    }
+
+    .application {
+        width: calc(100% / 3 - 20px);
+    }
+
+    .partners-card .colum-flex {
+        flex-direction: row;
+    }
+
+    .with-us-flex {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+    }
+
+    .with-us {
+        width: calc(100% / 2 - 20px)
+    }
+
+    #about-us .container {
+        display: flex;
+        gap: 20px;
+    }
+
+    #about-us h3 {
+        font-size: 60px;
     }
 
 }
