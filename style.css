@@ -10,6 +10,10 @@ body {
 }
 
 /* STYLE GENERAL TAG */
+section {
+    padding: 6% 0;
+}
+
 li {
     list-style: none;
 }
@@ -28,6 +32,10 @@ p {
     font-size: 20px;
 }
 
+h3 {
+    font-size: 40px;
+}
+
 .container {
     width: 90%;
     margin: auto;
@@ -36,6 +44,11 @@ p {
 .card {
     border-radius: 20px;
     margin: 5% 0;
+}
+
+.smallcard {
+    padding: 6% 0;
+    text-align: center;
 }
 
 .colum-flex {
@@ -47,8 +60,7 @@ p {
 
 .violet-background {
     background-color: rgb(150, 146, 222);
-    margin: 3% 0;
-    padding: 6% 0;
+    margin-top: 6%;
 }
 
 /* HEADER STYLE */
@@ -76,7 +88,7 @@ nav {
 /* MAIN STYLE */
 
 main {
-    padding-top: 5rem;
+    padding-top: 3rem;
 }
 
 /* DEMO-APPLICATION MAIN STYLE */
@@ -101,7 +113,6 @@ main {
 }
 
 .card-text a {
-    display: inline-block;
     background-color: rgb(57, 130, 245);
     padding: 1% 10%;
     border-radius: 10px;
@@ -115,11 +126,6 @@ main {
     display: flex;
     justify-content: flex-end;
     padding-top: 5%;
-}
-
-.smallcard {
-    padding: 6% 0;
-    text-align: center;
 }
 
 /* STRATEGIC-PLAN MAIN STYLE */
@@ -184,8 +190,8 @@ main {
 }
 
 .partners-card img {
-    width: 300px;
-    height: 300px;
+    width: 240px;
+    height: 240px;
     object-fit: cover;
     border-radius: 50%;
 }
@@ -197,4 +203,145 @@ main {
 .partners-card span {
     font-size: 25px;
     font-weight: 700;
+}
+
+/* WORK-WITH-US MAIN STYLE */
+
+#work-with-us h3 {
+    color: white;
+    text-align: center;
+}
+
+.with-us {
+    background-color: white;
+}
+
+.with-us .colum-flex {
+    padding: 8% 0;    
+}
+
+.with-us p {
+    color: gray;
+}
+
+.with-us h4, .with-us h5 {
+    color: rgb(150, 146, 222)
+}
+
+.with-us h4 {
+    font-size: 35px;
+}
+
+.with-us h5 {
+    font-size: 25px;
+}
+
+.with-us a {
+    background-color: rgb(150, 146, 222);
+    padding: 1% 10%;
+    border-radius: 20px;
+}
+
+/* ABOUT-US MAIN STYLE */
+#about-us .container {
+    padding: 6% 0;
+}
+
+.about-description h3 {
+    color: rgb(150, 146, 222);
+}
+
+.about-description p {
+    color: gray;
+    padding: 5% 0;
+}
+
+.about-linkedin {
+    padding-top: 5%;
+}
+
+.linkedin-img {
+    position: relative;
+    display: inline-block;
+}
+
+.linkedin-img img {
+    width: 240px;
+    height: 240px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.linkedin-img i{
+    position: absolute;
+    top: 0;
+    right: 35%;
+    color: rgb(150, 146, 222);
+    font-size: 60px;
+}
+
+
+.about-linkedin h4 {
+    color: rgb(150, 146, 222);
+    font-size: 25px; 
+}
+
+.linkedin-button {
+    color: white;
+    font-size: 20px;
+}
+
+.linkedin-button i {
+    color: white;
+    font-size: 16px;
+}
+
+.linkedin-button a {
+    background-color: rgb(150, 146, 222);
+    padding: 1% 4%;
+    border-radius: 20px;
+}
+
+/* GET-STARTED MAIN STYLE */
+#get-started {
+    color: white;
+    text-align: center;
+}
+
+#get-started h4 {
+    font-size: 30px;
+}
+
+#get-started h3 {
+    font-size: 50px;
+    color: rgb(245, 195, 110);
+}
+
+.started-button {
+    margin: 5% 0;
+}
+
+.started-button a {
+    color: rgb(150, 146, 222);
+    background-color: white;
+    padding: 2% 10%;
+    border-radius: 20px;
+}
+
+/* FOOTER STYLE */
+
+footer {
+    background-color: rgb(51, 51, 51);
+    text-align: center;
+    color: white;
+    padding: 6% 0;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+footer a {
+    text-decoration: underline; 
+    color: rgb(150, 146, 222);
 }
