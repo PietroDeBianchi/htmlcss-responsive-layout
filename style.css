@@ -61,6 +61,7 @@ h3 {
 .violet-background {
     background-color: rgb(150, 146, 222);
     margin-top: 6%;
+    padding: 3% 0;
 }
 
 /* HEADER STYLE */
@@ -78,6 +79,21 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 0.5rem 0;
+}
+
+#none {
+    display: none;
+}
+
+#nav-button {
+    background-color: white;
+    width: 100px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+#nav-button a {
+    color: black;
 }
 
 #header-logo {
@@ -167,6 +183,10 @@ main {
     border-radius: 50%;
 }
 /* EXPERT-PARTNERS MAIN STYLE */
+
+#expert-partners {
+    margin-top: 5%;
+}
 
 .partners-text {
     text-align: center;
@@ -262,23 +282,26 @@ main {
 }
 
 .linkedin-img {
+    width: 240px;
     position: relative;
-    display: inline-block;
 }
 
-.linkedin-img img {
+.linkedin-img::before {
+    content: "“";
+    position: absolute;
+    right: 10%;
+    top: 0;
+    z-index: 1;
+    font-size: 80px;
+    font-weight: 700;
+    color: rgb(150, 146, 222)
+}
+
+#about-img {
     width: 240px;
     height: 240px;
     object-fit: cover;
     border-radius: 50%;
-}
-
-.linkedin-img i{
-    position: absolute;
-    top: 0;
-    right: 0;
-    color: rgb(150, 146, 222);
-    font-size: 60px;
 }
 
 
@@ -351,6 +374,10 @@ footer a {
 /* RESPONSIVE PART */
 
 @media all and (min-width: 768px) {
+    section {
+        padding: 0;
+    }
+
     p {
         font-size: 18px;
     }
@@ -367,6 +394,10 @@ footer a {
 
     .application {
         width: calc(100% / 3 - 20px);
+    }
+
+    #strategic-intro {
+        padding: 0;
     }
 
     .partners-card .colum-flex {
@@ -401,6 +432,33 @@ footer a {
 }
 
 @media all and (min-width: 992px) {
+
+    #hamburger {
+        display: none;
+    }
+
+    #none {
+        display: block;
+    }
+
+    .desktop-nav {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .big-card {
+        display: flex;
+    }
+
+    #application-img {
+        width: auto;
+        height: 100%;
+    }
+
+    .card-text {
+        padding-left: 35px;
+    }
 
     .strategic-container {
         display: flex;
