@@ -397,6 +397,19 @@ footer a {
 
 @media all and (min-width: 992px) {
 
+    .strategic-container {
+        display: flex;
+        align-items: flex-end;
+    }
+
+    .strategic-card {
+        margin: 0;
+    }
+
+    .with-us {
+        width: calc(100% / 3 - 20px)
+    }
+
 }
 
 @media all and (min-width: 1140px) {
